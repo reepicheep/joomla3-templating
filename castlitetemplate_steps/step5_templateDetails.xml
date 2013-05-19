@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>castlitetemplate</name>
+	<version>1.0</version>
+	<creationDate>5/9/2013</creationDate>
+	<author>Evgeni Leshtanski</author>
+	<authorEmail>evgeni@leshtanski.com</authorEmail>
+	<copyright>Copyright (C) 2013 Evgeni Leshtanski. All rights reserved.</copyright>
+	<description>Template for the CastLite. website</description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+	</files>
+	<positions>
+		<position>toolbar-l</position>
+		<position>toolbar-r</position>
+        <position>headerbar</position>
+		<position>showcase</position>
+		<position>feature</position>
+		<position>hero-unit</position>
+		<position>utility-a</position>
+		<position>utility-b</position>
+		<position>utility-c</position>
+		<position>utility-d</position>
+		<position>breadcrumbs</position>
+		<position>maintop-a</position>
+		<position>maintop-b</position>
+		<position>sidebar</position>
+		<position>mainbottom-a</position>
+		<position>mainbottom-b</position>
+		<position>bottom-a</position>
+		<position>bottom-b</position>
+		<position>footer-a</position>
+		<position>footer-b</position>
+		<position>footer-c</position>
+		<position>footer-d</position>
+		<position>footer-e</position>
+		<position>copyright-a</position>
+		<position>copyright-b</position>
+		<position>debug</position>
+	</positions>
+</extension>

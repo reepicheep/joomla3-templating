@@ -1,0 +1,467 @@
+/** 
+* Custom.css for Joomla 3.1. Castlite Template
+* by Evgeni Leshtanski
+* Telerik CMS Course, April - May 2013 
+*/
+
+/* >> Container Backgrounds */
+.bg-top, .bg-hero, .bg-utility, .bg-footer {
+	background-color: #E8EBF1;
+}
+
+.bg-showcase {
+	background-color: #81E4E9;
+}
+
+.bg-feature {
+	background-color: #BDE0EB;
+	opacity:0.8;
+	filter:Alpha(opacity=80); /* IE8 and earlier */
+}
+/* << Container Backgrounds */
+
+/* >> Sprite */
+.download-button, .linkedin, .share, .dribble, .pinterest,
+.skype, .facebook, .layered-icon, .responsive-icon, .coding-icon,
+.clean-icon, .latest-work-arrow, .testimonials-icon, .clients-icon, .arrow-left,
+.arrow-right
+{ display: inline-block; background: url('../images/mysprite.png') no-repeat;}
+
+.download-button { background-position: -2px -0; width: 244px; height: 64px; margin-top: 22px; margin-right: 32px;}
+.linkedin { background-position: -2px -66px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.share { background-position: -57px -66px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.dribble { background-position: -112px -66px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.pinterest { background-position: -167px -66px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.skype { background-position: -2px -119px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.facebook { background-position: -57px -119px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.layered-icon { background-position: -112px -119px; width: 40px; height: 40px; margin-bottom: -20px; margin-right: 14px; }
+.responsive-icon { background-position: -154px -119px; width: 40px; height: 40px; margin-bottom: -20px; margin-right: 14px; }
+.coding-icon { background-position: -196px -119px; width: 40px; height: 40px; margin-bottom: -20px; margin-right: 14px; }
+.clean-icon { background-position: -112px -161px; width: 40px; height: 40px; margin-bottom: -20px; margin-right: 14px; }
+.latest-work-arrow { background-position: -222px -66px; width: 14px; height: 24px; margin-top: 6px; margin-right: 20px; }
+.testimonials-icon { background-position: -154px -161px; width: 24px; height: 23px; margin-right: 8px;}
+.clients-icon { background-position: -180px -161px; width: 24px; height: 20px; margin-right: 8px; }
+.arrow-left { background-position: -222px -92px; width: 20px; height: 20px; margin-right: 14px; margin-top: 4px; }
+.arrow-right { background-position: -206px -161px; width: 20px; height: 20px; margin-top: 4px; }
+/* << Sprite */
+
+h5 {
+	display: inline-block;
+}
+
+/* >> Header / Navigation */
+/* >> From bootstrap.css */
+.navbar-inner {
+  background-color: #e8ebf1;
+  background-image: none; /*linear-gradient(to bottom, #FFFFFF, #F2F2F2);*/
+  background-repeat: no-repeat; /*repeat-x;*/
+  border: 0 solid #D4D4D4;
+  border-radius: 0;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.067);
+  color: #000000;
+  margin-top: 30px;
+  min-height: 40px;
+  padding-left: 0;
+  padding-right: 40px;
+}
+/* << From bootstrap.css */
+
+/* >> Menu Dropdowns from template.css of Protostar */
+nav .nav-child {
+  position: absolute;
+  top: 95%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+nav .nav-child.pull-right {
+  right: 0;
+  left: auto;
+}
+
+nav .nav-child .divider {
+  *width: 100%;
+  height: 1px;
+  margin: 8px 1px;
+  *margin: -5px 0 5px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+
+nav .nav-child a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #333;
+  white-space: nowrap;
+}
+
+nav .nav > li {
+  position: relative;
+}
+
+nav .nav > li:hover > .nav-child,
+nav .nav > li > a:focus + .nav-child {
+  display: block;
+}
+
+nav .nav-child:before {
+  position: absolute;
+  top: -7px;
+  left: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0,0,0,0.2);
+  content: '';
+}
+
+nav .nav-child:after {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  border-left: 6px solid transparent;
+  content: '';
+}
+
+nav .nav-child li > a:hover,
+nav .nav-child li > a:focus,
+nav .nav-child:hover > a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #08c;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top,#08c,#0077b3);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0077b3));
+  background-image: -webkit-linear-gradient(top,#08c,#0077b3);
+  background-image: -o-linear-gradient(top,#08c,#0077b3);
+  background-image: linear-gradient(to bottom,#08c,#0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0076b2', GradientType=0);
+}
+/* << Menu Dropdowns from template.css of Protostar */
+
+/* >> Brand */
+.navbar .brand {
+	font-family: 'Lato', sans-serif;
+	font-size: 200%;
+}
+
+.brandone {
+	font-weight: 700;
+	color: #000000;
+}
+
+.brandtwo {
+	font-weight: 400;
+	color: #2aacc8;
+}
+/* << Brand */
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  background-color: #E8EBF1;
+  box-shadow: none;
+  color: #2aacc8;
+}
+
+.navbar .nav {
+	margin: 0 10px 0 0;
+}
+
+ul.nav {
+  font-weight:bold;
+	padding-top: 9px;
+  text-transform: uppercase;
+}
+
+ul.nav-child li a {
+  text-transform: none;
+}
+/* << Header / Navigation */
+
+/* >> Showcase / Carousel */
+.carousel {
+	margin-top: 10px;
+}
+
+.item img {
+	width: 100%;
+}
+/* << Showcase / Carousel */
+
+/* >> Feature / Search */
+.searchone {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.mysearch {
+	font-size: x-large;
+	padding-right: 24px;
+}
+
+input.search-query {
+	background-color: #BDE0EB;
+  border-color: #A6A6A6;
+  margin-bottom: 6px;
+  opacity: 0.74;
+  width: 240px;
+}
+/* << Feature / Search */
+
+/* >> Hero Unit */
+div.hero-unit {
+	background-color: #e8ebf1;
+	padding: 10px 0 0 0;
+}
+
+.hero-unit h1 {
+    font-size: 66px;
+}
+
+.hero-unit .lead {
+    font-weight: 200;
+    line-height: 27px;
+    margin-bottom: 18px;
+    color: #777777;
+    font-size: 22px;
+    margin-top: 6px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.bg-hero section p:last-of-type  {
+	margin-top: 10px;
+}
+/* << Hero Unit */
+
+/* >> Utility */
+.worktitle {
+	margin-bottom: 26px;
+}
+
+.icon-chevron-right {
+	margin-right: 4px;
+}
+
+.bg-utility div:nth-child(2) {
+	margin-bottom: 20px;
+}
+/* << Utility */
+
+/* >> Maintop */
+.latest {
+  margin-top: 6px;
+}
+
+figure {
+  margin: 10px 0;
+}
+
+.myimages {
+  width: 100%;
+}
+/* << Maintop */
+
+/* >> Main Content/ Articles */
+.lorem {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+}
+
+.img-polaroid {
+  margin: 4px 20px 10px 0;
+  max-width: 96%;
+}
+/* << Main Content/ Articles */
+
+/* << Sidebar Modules */
+.lz-one {
+  text-align: center;
+}
+/* >> Sidebar Modules */
+
+/* >> Mainbottom */
+hr.style-one {
+    border: 0;
+    float: left;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+    width: 100%;
+}
+
+.mymainbottom {
+  margin-top: -10px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+.clientimage {
+  width: 32%;
+}
+/* << MainBottom */
+
+/* >> Bottom */
+.mybottom {
+  border: 1px solid #81e4ed;
+  border-radius: 6px;
+  background-color: #e8fcfe;
+  margin-bottom: 20px;
+  max-height: 100%;  
+}
+
+.downloadpsd {
+  margin-top: 6px;
+  margin-bottom: 32px;
+}
+
+.mydownload {
+  max-width: 50%;
+}
+
+.mydownload p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-left: 25px;
+  margin-top: 16px;
+
+}
+
+.mydownloadbtn {
+  max-width: 50%;
+}
+/* << Bottom */
+
+/* >> Footer */
+footer {
+  margin-top: 20px;
+}
+
+.myfooter div:first-of-type {
+  margin-bottom: 5px;
+}
+/* << Footer */
+
+/* >> Copyright */
+.copy-right p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.myfooter .footerbrand {
+  margin: 6px 0 0 0;
+  padding: 0;
+}
+/* << Copyright */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+.container-fluid {
+  padding-left: 8.547008547008547%;
+  padding-right: 8.547008547008547%;
+}
+}
+
+/* Desktop and Large desktop */
+@media (min-width: 980px) {
+.navbar .brand {
+  font-size: 357%;
+}
+
+.container-fluid {
+  padding-left: 6.9800569801%; /*4.54701%;*/
+  padding-right: 6.9800569801%; /*4.54701%;*/
+}
+}
+     
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.navbar .brand {
+  font-size: 300%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+.nav-collapse div.moduletable ul.nav {
+  margin-bottom: 20px;
+}
+
+.navbar .brand {
+  font-size: 300%;
+}
+.worktitle {
+    margin-top: 16px;
+}
+
+.container-fluid {
+  padding-left: 1.12%;
+  padding-right: 1.12%;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+body {
+  padding: 0;
+}
+
+.container-fluid {
+  padding-left: 1.0%;
+  padding-right: 1.0%;
+}
+
+.navbar .brand {
+  font-size: 250%;
+}
+
+.nav-collapse div.moduletable ul.nav {
+  margin-bottom: 20px;
+}
+
+.download-button {
+  background-position: 10% -37%;
+  background-size: 86% 200%;
+  height: 60px;
+  margin-right: 0;
+  margin-top: 0;
+  width: 160px;
+}
+
+.bottom {
+  display: none;
+}
+}

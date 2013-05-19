@@ -1,0 +1,34 @@
+; Telerik CMS Course 2013 Joomla! Lecture Project
+; Copyright (C) 2013 Evgeni Leshtanski. All rights reserved.
+; License GNU General Public License version 2 or later; see LICENSE.txt, see LICENSE.php
+; Note : All ini files need to be saved as UTF-8 - No BOM
+
+TPL_CASTLITETEMPLATE_XML_DESCRIPTION="CastliteTemplate is a template for the Telerik CMS Course 2013 Joomla! Lecture."
+
+
+TPL_CASTLITETEMPLATE_BACKGROUND_COLOR_DESC="Choose a background colour for static layouts. Default is #FFF"
+TPL_CASTLITETEMPLATE_BACKGROUND_COLOR_LABEL="Body Background Colour"
+
+TPL_CASTLITETEMPLATE_THUF_BACKGROUND_COLOR_DESC="Choose a background colour for static layouts. Default is #E8EBF1"
+TPL_CASTLITETEMPLATE_THUF_BACKGROUND_COLOR_LABEL="Background Colour of Top, Hero, Utility and Footer"
+
+
+TPL_PROTOSTAR_BACKTOTOP="Back to Top"
+
+
+TPL_CASTLITETEMPLATE_COLOR_LABEL="Template Colour"
+TPL_CASTLITETEMPLATE_COLOR_DESC="Choose an overall colour for the site template. Default is #08C"
+
+
+TPL_PROTOSTAR_FLUID="Fluid"
+TPL_PROTOSTAR_FLUID_LABEL="Fluid Layout"
+TPL_PROTOSTAR_FLUID_DESC="Use Bootstrap's Fluid or Static Container (both are Responsive)"
+TPL_PROTOSTAR_FONT_LABEL="Google Font for Headings"
+TPL_PROTOSTAR_FONT_DESC="Load a Google font for the headings (H1, H2, H3, etc.)"
+TPL_PROTOSTAR_FONT_NAME_LABEL="Google Font Name"
+TPL_PROTOSTAR_FONT_NAME_DESC="Example: Open+Sans or Source+Sans+Pro"
+
+TPL_PROTOSTAR_LOGO_LABEL="Logo"
+TPL_PROTOSTAR_LOGO_DESC="Upload a custom logo for the site template."
+
+TPL_PROTOSTAR_STATIC="Static"

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>castlitetemplate</name>
+	<version>1.0</version>
+	<creationDate>5/9/2013</creationDate>
+	<author>Evgeni Leshtanski</author>
+	<authorEmail>evgeni@leshtanski.com</authorEmail>
+	<copyright>Copyright (C) 2013 Evgeni Leshtanski. All rights reserved.</copyright>
+	<description>Template for the CastLite. website</description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+	</files>
+	<positions>
+		<position>toolbar-l</position>
+		<position>toolbar-r</position>
+        <position>headerbar</position>
+		<position>showcase</position>
+		<position>feature</position>
+		<position>hero-unit</position>
+		<position>utility-a</position>
+		<position>utility-b</position>
+		<position>utility-c</position>
+		<position>utility-d</position>
+		<position>breadcrumbs</position>
+		<position>maintop-a</position>
+		<position>maintop-b</position>
+		<position>sidebar</position>
+		<position>mainbottom-a</position>
+		<position>mainbottom-b</position>
+		<position>bottom-a</position>
+		<position>bottom-b</position>
+		<position>footer-a</position>
+		<position>footer-b</position>
+		<position>footer-c</position>
+		<position>footer-d</position>
+		<position>footer-e</position>
+		<position>copyright-a</position>
+		<position>copyright-b</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_castlitetemplate.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_castlitetemplate.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="templateColor" class="" type="color" default="#08C"
+					label="TPL_CASTLITETEMPLATE_COLOR_LABEL"
+					description="TPL_CASTLITETEMPLATE_COLOR_DESC" />
+
+				<field name="templateBackgroundColor" class="" type="color" default="#FFF"
+					label="TPL_CASTLITETEMPLATE_BACKGROUND_COLOR_LABEL"
+					description="TPL_CASTLITETEMPLATE_BACKGROUND_COLOR_DESC" />
+
+				<field name="templateTopHeroUtilityFooterBackgroundColor" class="" type="color" default="#E8EBF1"
+					label="TPL_CASTLITETEMPLATE_THUF_BACKGROUND_COLOR_LABEL"
+					description="TPL_CASTLITETEMPLATE_THUF_BACKGROUND_COLOR_DESC" />
+
+				<field name="templateShowcaseBackgroundColor" class="" type="color" default="#81E4E9"
+					label="TPL_CASTLITETEMPLATE_SHOWCASE_BACKGROUND_COLOR_LABEL"
+					description="TPL_CASTLITETEMPLATE_SHOWCASE_BACKGROUND_COLOR_DESC" />
+
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_CASTLITETEMPLATE_LOGO_LABEL"
+					description="TPL_CASTLITETEMPLATE_LOGO_DESC" />
+			</fieldset>
+		</fields>
+	</config>	
+</extension>
