@@ -1,0 +1,257 @@
+/** 
+* Custom.css for HTML5 Bootstrapped Castlite Template
+* by Evgeni Leshtanski
+* Telerik CMS Course, April - May 2013 
+*/
+
+body {
+	padding: 0;
+}
+
+/* >> Container Backgrounds */
+.container-fluid {
+	padding: 0;
+}
+
+.bg-top, .bg-hero, .bg-footer {
+	background-color: #E8EBF1;
+}
+
+.bg-carousel{
+	background-color: #81E4E9;
+}
+
+.bg-search{
+	background-color: #FDFDFD;
+	opacity:0.8;
+	filter:Alpha(opacity=80); /* IE8 and earlier */
+}
+/* << Container Backgrounds */
+
+/* >> Sprite */
+.download-button, .linkedin, .share, .dribble, .pinterest,
+.skype, .facebook, .layered-icon, .responsive-icon, .coding-icon,
+.clean-icon, .latest-work-arrow, .testimonials-icon, .clients-icon, .arrow-left,
+.arrow-right
+{ display: inline-block; background: url('../images/mysprite.png') no-repeat;}
+
+.download-button { background-position: -2px -0; width: 244px; height: 64px; margin-top: 22px; margin-right: 32px;}
+.linkedin { background-position: -2px -66px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.share { background-position: -57px -66px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.dribble { background-position: -112px -66px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.pinterest { background-position: -167px -66px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.skype { background-position: -2px -119px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.facebook { background-position: -57px -119px; width: 53px; height: 51px;  margin: 8px 14px 0 0;}
+.layered-icon { background-position: -112px -119px; width: 40px; height: 40px; margin-bottom: -20px; margin-right: 14px; }
+.responsive-icon { background-position: -154px -119px; width: 40px; height: 40px; margin-bottom: -20px; margin-right: 14px; }
+.coding-icon { background-position: -196px -119px; width: 40px; height: 40px; margin-bottom: -20px; margin-right: 14px; }
+.clean-icon { background-position: -112px -161px; width: 40px; height: 40px; margin-bottom: -20px; margin-right: 14px; }
+.latest-work-arrow { background-position: -222px -66px; width: 14px; height: 24px; margin-top: 6px; margin-right: 20px; }
+.testimonials-icon { background-position: -154px -161px; width: 24px; height: 23px; margin-right: 8px;}
+.clients-icon { background-position: -180px -161px; width: 24px; height: 20px; margin-right: 8px; }
+.arrow-left { background-position: -222px -92px; width: 20px; height: 20px; margin-right: 14px; margin-top: 4px; }
+.arrow-right { background-position: -206px -161px; width: 20px; height: 20px; margin-top: 4px; }
+/* << Sprite */
+
+h5 {
+	display: inline-block;
+}
+
+/* >> Header / Navigation */
+.navbar-inner {
+	background-color: #e8ebf1;
+	background-image: none; /*linear-gradient(to bottom, #FFFFFF, #F2F2F2);*/
+	background-repeat: no-repeat; /*repeat-x;*/
+	border: 0 solid #D4D4D4;
+	border-radius: 0;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.067);
+	color: #000000;
+	min-height: 40px;
+	padding-left: 0;
+	padding-right: 40px;
+}
+
+.navbar-inner {
+	margin-top: 30px;
+}
+
+/* >> Brand */
+.navbar .brand {
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+}
+
+.brandone {
+	font-weight: 700;
+	color: #000000;
+}
+
+.brandtwo {
+	font-weight: 400;
+	color: #2aacc8;
+}
+/* << Brand */
+
+.navbar .nav {
+	margin: 0 10px 0 0;
+
+}
+
+ul.nav {
+  font-weight:bold;
+  padding-top: 9px;
+}
+/* << Header / Navigation */
+
+/* >> Showcase / Carousel */
+.carousel {
+	margin-top: 10px;
+}
+
+.item img {
+	width: 100%;
+}
+/* << Showcase / Carousel */
+
+/* >> Feature / Search */
+.searchone {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.mysearch {
+	font-size: x-large;
+	padding-right: 24px;
+}
+
+.navbar-search .search-query {
+	margin-bottom: 6px;
+}
+/* << Feature / Search */
+
+/* >> Hero Unit */
+.bg-hero .hero-unit {
+	background-color: #e8ebf1;
+	padding: 10px 0 0 0;
+}
+
+.hero-unit p {
+	margin-top: 6px;
+	color: #777777;
+	font-size: 22px;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.bg-hero div p:last-of-type  {
+	margin-top: 10px;
+}
+/* << Hero Unit */
+
+/* >> Utility */
+.worktitle {
+	margin-bottom: 26px;
+}
+
+.icon-chevron-right {
+	margin-right: 4px;
+}
+
+.bg-hero div:nth-child(2) {
+	margin-bottom: 10px;
+}
+/* << Utility */
+
+/* >> Maintop */
+.bg-main .samples1 {
+	margin-top: 6px;
+}
+
+.bg-main hr.span12 {
+	margin-top: 10px;
+	margin-bottom: 0;
+	border-top-width: 2px;
+	border-bottom-width: 0;
+}
+
+.bg-main .samples2 {
+	margin-bottom: 20px;
+}
+
+.myimages {
+  width: 100%;
+}
+/* << Maintop */
+
+/* >> Mainbottom */
+figure {
+	margin: 0;
+}
+
+.clientimage {
+	max-width: 32%;
+}
+/* << MainBottom */
+
+/* >> Bottom */	
+.testimonials p {
+	line-height: 24px;
+}
+
+.downloadpsd {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.mydownload {
+	border: 1px solid #81e4ed;
+	border-radius: 6px;
+	background-color: #e8fcfe;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.mydownload p {
+	margin-bottom: 16px;
+	margin-left: 25px;
+	margin-top: 16px;
+}
+/* << Bottom */
+
+/* >> Footer */
+footer {
+	margin-top: 20px;
+}
+
+.myfooter div:first-of-type {
+	margin-bottom: 10px;
+}
+
+.myfooter p a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.connect {
+	display: block;
+}
+
+.myfooter div:nth-child(4) p {
+	margin-top: 16px;
+}
+
+.myfooter div:nth-child(5) div {
+	margin-bottom: 0;
+}
+/* << Footer */
+
+/* >> Copyright */
+.myfooter div:last-of-type p {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.myfooter .footerbrand {
+	margin: 0;
+	padding: 0;
+}
+/* << Copyright */

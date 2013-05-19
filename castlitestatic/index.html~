@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CastLite Inc.</title>
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/custom.css" type="text/css">
+	<!-- HTML5 shim for IE backwards compatibility -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <!-- >> Header / Navigation -->
+      <div class="container-fluid wrapper-top">
+
+        <header class="row-fluid">
+
+          <nav class="navbar span10 offset1">
+
+            <div class="navbar-inner">
+
+              <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+
+              <!-- Be sure to leave the brand out there if you want it shown -->
+              <a class="brand" href="#"><span class="brandone">Cast</span><span class="brandtwo">Lite.</span></a>
+
+              <!-- Everything you want hidden at 940px or less, place within here -->
+              <div class="nav-collapse collapse">
+                <!-- .nav, .navbar-search, .navbar-form, etc -->
+
+                <ul class="nav pull-right">
+                  <li><a href="#">HOME</a> </li>
+                  <li><a href="#">ABOUT US</a></li>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICES<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="#">Joomla! &amp; WordPress Design</a></li>
+                      <li><a href="#">Mobile App Devplopment</a></li>
+                      <li><a href="#">Internet Marketing</a></li>
+                      <li><a href="#">Social Media Management</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">PORTFOLIO<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Icons</a></li>
+                      <li><a href="#">Joomla! Templates</a></li>
+                      <li><a href="#">WordPress Themes</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">CONTACT US</a></li>
+                </ul>
+
+              </div>
+
+            </div>
+          </nav>
+          <div class="span1"></div>
+        </header>
+      </div>
+      <!-- << Header / Navigation -->
+
+      <!-- >> Carousel / Search -->
+      <div class="container-fluid wrapper-carousel">
+
+        <div class="row-fluid">
+
+          <div id="myCarousel" class="carousel slide span10 offset1">
+
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              <div class="active item"><a href="#" target="_self" title="#"><img src="img/image_1-1000x300.jpg" alt="Image1"></a></div>
+              <div class="item"><a href="#" target="_self" title="#"><img src="img/image_2-1000x300.jpg" alt="Image2"></a></div>
+              <div class="item"><a href="#" target="_self" title="#"><img src="img/image_3-1000x300.jpg" alt="Image3"></a></div>
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+          </div>
+          <div class="span1"></div>
+        </div>
+
+        <div class="container-fluid wrapper-search">
+          <div class="row-fluid">
+            <div class="searchone span10 offset1">
+              <form class="navbar-search">
+                <p><span class="mysearch">Search Our Site</span> <input type="text" class="search-query" placeholder="Search..."></p>
+              </form>
+            </div>
+            <div class="span1"></div>
+          </div>
+        </div>
+      </div>
+      <!-- << Carousel / Search -->
+
+      <!-- >> Hero Unit  -->
+      <div class="container-fluid wrapper-hero">
+
+        <div class="row-fluid">
+          <article class="span10 offset1 hero-unit">
+            <h1 class="text-center">Exquisite Web Design.</h1>
+            <p class="text-center">We create clean, crisp, memorable templates, themes and icons.</p>
+          </article>
+        </div>
+
+        <div class="row-fluid">
+          <article class="span10 offset1">
+            <div class="row-fluid">
+              <section class="span3">
+                <div class="clean-icon"></div>
+                <h5>CLEAN TEMPLATE</h5>
+                <p>Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie. Duis porta gravida augue sed viverra. Quisque at nulla leo, non aliquet mi.</p>
+                <p><i class="icon-chevron-right"></i><a href="#" target="_self" title="Read More">Read More</a></p>
+              </section>
+
+              <section class="span3">
+                <div class="responsive-icon"></div>
+                <h5>RESPONSIVE DESIGN</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+                <p><i class="icon-chevron-right"></i><a href="#" target="_self" title="Read More">Read More</a></p>
+              </section>
+
+              <section class="span3">
+                <div class="layered-icon"></div>
+                <h5>FULLY LAYERED PSD</h5>
+                <p>Phasellus lobortis metus non augue sodales volutpat. Vestibulum sit amet nibh eros, hendrerit venenatis est. In vitae nulla nec purus cursus pretium sed id magna.</p>
+                <p><i class="icon-chevron-right"></i><a href="#" target="_self" title="Read More">Read More</a></p>
+              </section>
+
+              <section class="span3">
+                <div class="coding-icon"></div>
+                <h5>READY FOR CODING</h5>
+                <p>Vivamus convallis feugiat mauris sed posuere. Nam rutrum, quam quis euismod commodo, elit est porta quam, non placerat eros neque porta ante. Fusce quis odio urna.</p>
+                <p><i class="icon-chevron-right"></i><a href="#" target="_self" title="Read More">Read More</a></p>
+              </section>
+            </div>
+          </article>
+          <div class="span1"></div>
+        </div>
+
+        <div class="span1"></div>
+
+      </div>
+      <!-- << Hero Unit  -->
+
+      <!-- >> Main  -->
+      <div class="container-fluid wrapper-main">
+
+        <div class="row-fluid">
+          <section class="span10 offset1 clearfix">
+            <div class="latest-work-arrow alignleft"></div>
+            <h5 class="alignleft">LATEST WORK</h5>
+            <div class="arrow-right alignright"></div>
+            <div class="arrow-left alignright"></div>
+          </section>
+          <div class="span1"></div>
+        </div>
+
+        <div class="row-fluid">
+          <section class="span10 offset1">
+            <div class="row-fluid">
+              <hr class="span12">
+            </div>
+          </section>
+          <div class="span1"></div>
+        </div>
+
+        <div class="row-fluid">
+          <article class="span10 offset1">
+            <div class="row-fluid">
+              <figure class="span3 myimages">
+               <a href="#" title="#"><img src="img/latest-work-pic-1.gif" alt="Latest Work 1"></a>
+             </figure>
+
+             <figure class="span3 myimages">
+              <a href="#" title="#"><img src="img/latest-work-pic-2.gif" alt="Latest Work 2"></a>
+            </figure>
+
+            <figure class="span3 myimages">
+              <a href="#" title="#"><img src="img/latest-work-pic-3.gif" alt="Latest Work 3"></a>
+            </figure>
+
+            <figure class="span3 myimages">
+              <a href="#" title="#"><img src="img/latest-work-pic-4.gif" alt="Latest Work 4"></a>
+            </figure>
+          </div>
+        </article>
+        <div class="span1"></div>
+      </div>
+
+      <div class="row-fluid">
+        <section class="span10 offset1">
+          <div class="row-fluid">
+            <hr class="span12">
+          </div>
+        </section>
+        <div class="span1"></div>
+      </div>
+
+      <div class="row-fluid">
+        <article class="span10 offset1">
+          <div class="row-fluid">
+
+            <section class="span6">
+              <div class="testimonials-icon"></div>
+              <h5>TESTIMONIALS</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut nulla sapien, at aliquam erat. Sed vitae massa tellus. Aliquam commodo aliquam metus, sed iaculis nibh tempus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam nec nisi in nisl euismod fringilla.</p>
+              <p><strong><i>John Travis, CEO, DomainName.com</i></strong></p>
+            </section>
+
+            <section class="span6">
+              <div class="clients-icon"></div>
+              <h5>OUR CLIENTS</h5>
+              <div class="row-fluid">
+
+                <figure class="span12 clientimage">
+                  <a href="#" title="#"><img src="img/cox-logo.gif" alt="Latest Work 4"></a>
+                  <a href="#" title="#"><img src="img/cnn-logo.gif" alt="Latest Work 4"></a>
+                  <a href="#" title="#"><img src="img/apartment-f-logo.gif" alt="Latest Work 4"></a>
+                  <a href="#" title="#"><img src="img/john_deer-logo.gif" alt="Latest Work 4"></a>
+                  <a href="#" title="#"><img src="img/banana_boat-logo.gif" alt="Latest Work 4"></a>
+                  <a href="#" title="#"><img src="img/fujifilm-logo.gif" alt="Latest Work 4"></a>
+                </figure>
+              </div>
+            </section>
+
+          </div>
+        </article>
+        <div class="span1"></div>
+      </div>
+
+      <div class="row-fluid">
+        <article class="span10 offset1 downloadpsd">
+          <div class="row-fluid">
+            <div class="span12 mydownload">
+              <div class="row-fluid">
+                <section class="span6">
+                  <p class="alignleft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut nulla sapien, at aliquam erat. Sed vitae massa tellus. Aliquam commodo aliquam metus, sed iaculis nibh tempus id.</p>
+                  </section>
+                  <section class="span6">
+                    <a href="#" target="_blank" title="Download PSD"><div class="alignright download-button"></div></a>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </article>
+          <div class="span1"></div>
+        </div>
+
+      </div>
+      <!-- << Main  -->
+
+      <!-- >> Footer  -->
+      <div class="container-fluid wrapper-footer">
+
+        <div class="row-fluid">
+
+          <footer class="span10 offset1 myfooter">
+            <div class="row-fluid">
+              <section class="span3">
+                <h5>ABOUT US</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros. Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie.</p>
+              </section>
+              <section class="span2">
+                <h5>EXPLORE</h5>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Services</p>
+                <p>Portfolio</p>
+                <p>Blog</p>
+              </section>
+              <section class="span2">
+                <h5>BROWSE</h5>
+                <p>Careers</p>
+                <p>Press &amp; Media</p>
+                <p>Contact Us</p>
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+              </section>
+              <section class="span2">
+                <h5>CONTACT US</h5>
+                <p><strong>CastLite Inc.</strong>
+                  <br/>Always Street 265
+                  <br/>0X - 125 - Canada</p>
+
+                  <p>Phone: 987-6543-210
+                  <br/>Fax: 987-6543-210</p>
+                </section>
+                <section class="span3">
+                  <h5>CONNECT WITH US</h5>
+                  <div class="facebook"></div>
+                  <div class="dribble"></div>
+                  <div class="pinterest"></div>
+                  <div class="linkedin"></div>
+                  <div class="skype"></div>
+                  <div class="share"></div>
+                </section>
+                </div>
+                <div class="row-fluid">
+                  <section class="span9">
+                    <p>&#169; Copyright 2013 - BisLite Inc. All rights reserved. Some free icons used here are created by <a href="#" title=#>Brankic1979.com</a>.<br/>Any trademarks or logos used throughout this website are the property of their respective owners.</p>
+                  </section>
+                  <section class="span3">
+                    <p>Logo</p>
+                  </section>
+                </div>
+              </footer>
+              <div class="span1"></div>
+            </div>
+
+
+          </div>
+          <!-- << End Footer -->
+
+
+
+          <script src=http://code.jquery.com/jquery-latest.js></script>
+          <script src=js/bootstrap.min.js></script>
+        </body>
+        </html>
