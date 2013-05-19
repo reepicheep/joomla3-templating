@@ -16,7 +16,7 @@ This repository contains the files and links to media files of the two-part lect
 	The castlitetemplate-step5 folder contains files and folders for producing a castlitetemplate.zip as an interim install at Step Five.
 
 <h3>Joomla!_and_Joomla!_3.1_Templating.txt</h3>
-	This file contains a link to the lecture presentation hosted on my GDrive.
+	This file contains a link to the lecture presentation hosted on my GDrive, http://goo.gl/G1WvL .
 	
 <h2>Forthcoming:</h2>
 	YouTube recodings of the lecture sessions.
