@@ -3,7 +3,7 @@ joomla3-templating
 
 Joomla! Lecture Files for the CMS Course 2013, http://academy.telerik.com/student-courses/web-design-and-ui/cms-systems/about , Telerik Software Academy, Sofia, Bulgaria
 
-This repository contains the files and links to media files of the two-part lecture on the Joomla! Project and Creation of Joomla! 3.1 Templates during the CMS Course 2013, Telerik Software Academy, Sofia (http://telerikacademy.com/Courses/Courses/Details/65) 
+This repository contains the files and links to media files of the two-part lecture on the Joomla! Project and Creation of Joomla! 3.1 Templates during the CMS Course 2013, http://telerikacademy.com/Courses/Courses/Details/65, Telerik Software Academy, Sofia, Bulgaria
 
 <h3>castlitestatic folder</h3>
 	An HTML5 website (HOME page only) based on Bootstrap 2.3.1. Analysed at Step One in Joomla! 3.1 template creation
@@ -18,6 +18,6 @@ This repository contains the files and links to media files of the two-part lect
 <h3>Joomla!_and_Joomla!_3.1_Templating.txt</h3>
 	This file contains a link to the lecture presentation hosted on my GDrive, http://goo.gl/G1WvL .
 	
-<h2>Recodings of the lecture sessions on YouTube:</h2>
+<h2>Recodings of lecture sessions on YouTube:</h2>
 	First part: http://www.youtube.com/watch?v=PIbexH3EWis
 	Second part plus Excercises: http://www.youtube.com/watch?v=5_ZgrOFg1Ts
