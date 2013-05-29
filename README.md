@@ -20,4 +20,4 @@ This repository contains files and links to media files of the two-part lecture 
 	
 <h3>Recodings of lecture sessions on YouTube:</h3>
 	First part: http://www.youtube.com/watch?v=PIbexH3EWis
-	Second part plus Excercises: http://www.youtube.com/watch?v=5_ZgrOFg1Ts
+	Second part: http://www.youtube.com/watch?v=GZQYVxluork
