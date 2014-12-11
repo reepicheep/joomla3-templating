@@ -17,7 +17,3 @@ This repository contains files and links to media files of the two-part lecture 
 
 <h3>Joomla!_and_Joomla!_3.1_Templating.txt</h3>
 	This file contains a link to the lecture presentation hosted on my GDrive, http://goo.gl/G1WvL .
-	
-<h3>Recodings of lecture sessions on YouTube:</h3>
-	First part: http://www.youtube.com/watch?v=PIbexH3EWis
-	Second part: http://www.youtube.com/watch?v=GZQYVxluork
